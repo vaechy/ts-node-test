@@ -1,7 +1,7 @@
 {
-  "name": "tetpl",
+  "name": "{{name}}",
   "version": "1.0.0",
-  "description": "",
+  "description": "{{description}}",
   "main": "index.js",
   "scripts": {
     "dev:build": "tsc -w",
@@ -9,7 +9,7 @@
     "dev": "concurrently npm:dev:*"
   },
   "keywords": [],
-  "author": "",
+  "author": "{{author}}",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
